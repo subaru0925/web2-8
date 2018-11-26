@@ -62,7 +62,7 @@ var separate_time=function(time){
  var min=Math.loor((time/1000/60)%60);
  var hours=Math.floor((time/1000/60/60)%24);
  var days=Math.loor(time/1000/60/60/24);
- return[sec,min,hours,days]
+ return[sec,min,hours,days];
 }
 var update=function(){
  var now=new Date();
